@@ -1,0 +1,17 @@
+<h2>Show job</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @job.name %>
+  </li>
+
+  <li>
+    <strong>Repo:</strong>
+    <%= @job.repo %>
+  </li>
+
+</ul>
+
+<%= link "Back", to: job_path(@conn, :index) %>
